@@ -1,0 +1,109 @@
+.posts{
+	grid-column: center-start / center-end;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	grid-column-gap: 7rem;
+	grid-row-gap: 2rem;
+}
+
+.post{display:grid;grid-template-columns:repeat(1, 1fr)}
+
+.post__img {
+	width: 30rem;
+}
+
+.post__title{
+	margin-top: 30px;
+}
+
+.post .read-more{
+	margin-top: 10px;
+}
+
+.single-post #content{
+	background: rgba(255,255,255,0.6);
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.single-post h1 a{
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.dashboard-presentation{
+	background-image: linear-gradient(to right bottom, rgba(255,255,255,0.6), rgba(255,255,255,0.6));
+	margin-bottom: 30px;
+}
+
+#projects-list{
+	width: 100%;
+	display: inline-block;
+	
+}
+
+.project{
+	display: block;
+	float: left;
+	background: white;
+	text-align: left;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 30px 3.3%;
+	width: 25.7%;
+	min-height: 300px;
+	box-shadow: 0 .1rem 1rem rgba(34,34,34,.05);
+}
+
+.project h3{
+	font-family: 'manrope';
+	font-size:  20px;
+	font-weight: 600;
+}
+
+.project .skills span{
+	font-size: 11px;
+	margin: 0px 5px;
+	background-color: #F4F5F7;
+	color: rgb(136, 136, 136);
+	padding: 3px 4px;
+	border-radius: 4px;
+	font-family: 'manrope';
+}
+
+.due{
+	color: #b8b8b8;
+	font-size: 14px;
+	font-family: 'manrope';
+}
+
+.links{
+	margin-top: 48px;
+	margin-bottom: 24px;
+}
+
+.blog article{
+	float: left;
+	padding: 30px;
+	width: 28%;
+	display: block;
+	margin: 2%;
+}
+
+.blog article img{
+	width: 100%;
+}
+
+.blog #content{
+	display: inline-block;
+}
+
+.blog article h2 a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: black;
+}
